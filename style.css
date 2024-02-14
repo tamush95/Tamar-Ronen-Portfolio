@@ -29,12 +29,23 @@ ul>li>#mainn {
     font-weight: bold;
 }
 
-.nav-bar-name {
+.nav-bar-name>p {
     font-family: 'satisfy';
+    text-decoration: none;
     font-size: 2em;
+    color: #000;
     margin-left: 1em;
     margin-top: 0.5em;
 
+
+}
+
+.nav-bar-pic>a>img {
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    margin-left: 1em;
+    margin-top: 0.5em;
 }
 
 .nav-bar {
@@ -82,27 +93,16 @@ p {
     margin-bottom: 1em;
 }
 
-.buttons {
-    text-align: center;
-    margin-top: 50px;
-}
-
-button {
-    background: #1AE0EC 0% 0% no-repeat padding-box;
-    border-radius: 15px;
-    opacity: 1;
-    width: 9em;
-    height: 2em;
-}
-
-.card>button {
-    align-items: center;
-    margin: auto;
-}
 
 #about {
     text-align: center;
     background-color: #dadada;
+}
+
+.profile-img>img {
+    width: 11em;
+    height: 11em;
+    border-radius: 100%;
 }
 
 #about>h2 {
