@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border-top: 4px solid aqua;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    text-align: center;
+    font: normal normal normal 25px/37px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+}
+
+ul>li>#mainn {
+    color: #1AE0EC;
+    font-weight: bold;
+}
+
+.nav-bar-name {
+    font-family: 'satisfy';
+    font-size: 2em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    direction: rtl;
+    top: 1em;
+    right: 1em;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+section {
+    height: 450px;
+    padding: 100px;
+    position: relative;
+}
+
+main {
+    padding-top: 50px;
+}
+
+#main {
+    background-color: #13E8F163;
+}
+
+#main>h1 {
+    font-family: 'heebo';
+    font-size: 5em;
+    text-align: center;
+    justify-content: center;
+}
+
+
+p {
+    font-family: 'heebo';
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background: #1AE0EC 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    width: 9em;
+    height: 2em;
+}
+
+.card>button {
+    align-items: center;
+    margin: auto;
+}
+
+#about {
+    text-align: center;
+    background-color: #dadada;
+}
+
+#about>h2 {
+    font-size: 3em;
+}
+
+
+#gallery>h1 {
+    display: block;
+    font-size: 3em;
+    font-family: 'heebo';
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80vw;
+    height: 200vh;
+    margin: auto;
+    flex-wrap: wrap;
+    font-size: 22px;
+    gap: 1em;
+}
+
+h3 {
+    font-family: 'heebo';
+    font-weight: medium;
+    font-size: 1em;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 250px;
+    height: 300px;
+    box-shadow: 3px 3px 12px gray;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card>a {
+    font-family: 'heebo';
+    text-decoration: none;
+    font-size: 15px;
+    color: #2C2C2C;
+    background: #1AE0EC 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    width: 9em;
+    height: 1.5em;
+    margin: auto;
+
+}
+
+.img-div1 {
+    background-image: url(./img/Capture1.PNG);
+    height: 35%;
+    background-position: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-div2 {
+    background-image: url(./img/Capture2.PNG);
+    height: 35%;
+    background-position: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-div3 {
+    background-image: url(./img/Capture3.PNG);
+    height: 35%;
+    background-position: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-div4 {
+    background-image: url(./img/Capture4.PNG);
+    height: 35%;
+    background-position: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-div5 {
+    background-image: url(./img/Capture5.PNG);
+    height: 35%;
+    background-position: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-div6 {
+    background-image: url(./img/Capture6.PNG);
+    height: 35%;
+    background-position: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+.contact-div {
+    height: 600px;
+    background-color: #4f4f4f;
+    margin-top: 15em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+.form {
+    right: 3em;
+    position: absolute;
+    direction: rtl;
+    line-height: 35px;
+
+}
+
+.contact-img {
+    height: 600px;
+}
+
+.contact-img>img {
+    width: 35em;
+
+}
+
+.form>h2 {
+    font-family: 'heebo';
+    color: #fff;
+    font-size: 3em;
+}
+
+.form>p {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.form-control>label {
+    font-family: 'heebo';
+    color: #fff;
+}
+
+.form-control>input {
+    width: 24em;
+    height: 2.3em;
+    border: none;
+    border-bottom: 4px solid #1AE0EC;
+}
+
+.form-control>textarea {
+    width: 24em;
+    height: 5em;
+    border-bottom: 4px solid #1AE0EC;
+}
+
+input[type="submit"] {
+    width: 8em;
+    background-color: #1AE0EC;
+    font-family: 'heebo';
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 15px;
+    color: #000;
+    height: 2em;
+
+}
+
+.social-links {
+    width: 98.8vw;
+    height: 200px;
+    background-color: #1AE0EC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    gap: 90px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social>img {
+    width: 3em;
+    height: 3em;
+}
+
+.footer {
+    background-color: #000;
+    height: 50px;
+    width: 98.8;
+    font-family: 'heebo';
+    color: #1AE0EC;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right {
+    direction: rtl;
+    right: 0;
+    position: absolute;
+}
+
+.left {
+    position: ltr;
+}

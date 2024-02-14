@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-top: 10px solid #FDBD03;
+    right: 0;
+    position: absolute;
+    width: 30vw;
+    height: 2em;
+
+}
+
+
+.wimg {
+    width: 50px;
+    height: 50px;
+    background-color: #FDBD03;
+    border-radius: 150px;
+}
+
+.wimg>img {
+    width: 2em;
+    height: 2em;
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.whatsappLogo {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+
+
+#container {
+    width: 98vw;
+    height: 83vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#container-img {
+    width: 35vw;
+}
+
+#container-form {
+    width: 60vw;
+}
+
+form {
+    direction: rtl;
+    width: 40vw;
+    margin-right: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+}
+
+
+img {
+    width: 20em;
+    height: 30em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+#title {
+    margin-top: 4em;
+    margin-right: 7em;
+}
+
+#title>h1 {
+    text-align: right;
+    font: normal normal 900 60px/90px Heebo;
+    letter-spacing: 0px;
+    color: #FDBD03;
+    opacity: 1;
+}
+
+#title>p {
+    text-align: right;
+    font: normal normal normal 18px/25px Heebo;
+    letter-spacing: 0px;
+    color: #020253;
+    opacity: 1;
+}
+
+
+.form-control {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    width: 60vw;
+    text-align: right;
+    font: normal normal bold 13px/20px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    opacity: 1;
+    gap: 10px;
+}
+
+input {
+    width: 22em;
+    height: 2.5em;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+    border-bottom: 4px solid #FDBD03;
+}
+
+textarea {
+    width: 44.8em;
+    height: 8em;
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+    border-bottom: 4px solid #FDBD03;
+}
+
+input[type="submit"] {
+    margin-left: 39.8em;
+    text-align: center;
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0.33px;
+    color: #000000;
+    opacity: 1;
+    background-color: #FDBD03;
+    width: 8em;
+
+}
+
+#social {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.logo {
+    background-color: #FDBD03;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo>img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-bottom: 60px;
+}
+
+footer {
+    border-bottom: 10px solid #FDBD03;
+    width: 60vw;
+
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container-img {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container-form {
+        width: 100vw;
+
+    }
+
+    .wimg {
+        display: none;
+    }
+
+    img {
+        width: 5em;
+        height: 7em;
+    }
+
+    #title {
+        margin-top: 1em;
+    }
+
+    #title>p {
+        text-align: center;
+    }
+
+    #title>h1 {
+        text-align: center;
+    }
+
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 200px;
+
+    }
+
+
+
+    .logo {
+        margin-top: 2em;
+        margin-bottom: 1em;
+
+    }
+
+    input[type="submit"] {
+        margin-left: 150px;
+        width: 21em;
+    }
+
+    textarea,
+    input {
+        width: 25em;
+    }
+
+    footer {
+        margin-top: 5em;
+        width: 100%;
+    }
+}
