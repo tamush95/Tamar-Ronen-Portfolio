@@ -226,8 +226,6 @@ h3 {
 
 }
 
-
-
 .form {
     right: 3em;
     position: absolute;
@@ -325,10 +323,80 @@ input[type="submit"] {
 
 .right {
     direction: rtl;
-    right: 0;
+    right: 1em;
     position: absolute;
 }
 
 .left {
     position: ltr;
+    left: 1em;
+    position: absolute;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    header {
+        font-size: 10px;
+    }
+
+    .nav-bar-name>p {
+        display: none;
+    }
+
+    .nav-bar-pic>a>img {
+        display: none;
+    }
+
+    #main {
+        height: 20em;
+    }
+
+    #main>h1 {
+        font-size: 2em;
+    }
+
+    #about {
+        height: 40em;
+    }
+
+    #about>img {}
+
+    #gallery {
+        margin-top: 20em;
+        height: 70em;
+    }
+
+    .contact-div {
+        margin-top: 30em;
+        text-align: center;
+    }
+
+    .form-control>h2 {
+        font-size: 1px;
+    }
+
+    .contact-img>img {
+        display: none;
+    }
+
+    .social>img {
+        width: 2em;
+        height: 2em;
+    }
+
+    .social-links {
+        width: 100%;
+        gap: 1em;
+    }
+
+    .social>p {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
 }

@@ -112,3 +112,24 @@ header {
 .left {
     position: ltr;
 }
+
+@media screen and (max-width: 600px) {
+    .bottom {
+        height: 20em;
+    }
+
+    .img>img {
+        width: 20em;
+        height: 10em;
+    }
+
+    .footer {
+        width: 100vw;
+        text-align: center;
+        margin: auto;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+}

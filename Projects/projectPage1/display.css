@@ -37,7 +37,7 @@ header {
 
 .top {
     width: 100vw;
-    height: 300px;
+    height: 250px;
     background-color: #13E8F163;
     text-align: center;
     font-family: 'heebo';
@@ -111,4 +111,25 @@ header {
 
 .left {
     position: ltr;
+}
+
+@media screen and (max-width: 600px) {
+    .bottom {
+        height: 20em;
+    }
+
+    .img>img {
+        width: 20em;
+        height: 10em;
+    }
+
+    .footer {
+        width: 100vw;
+        text-align: center;
+        margin: auto;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
 }
