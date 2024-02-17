@@ -29,14 +29,13 @@ ul>li>#mainn {
     font-weight: bold;
 }
 
-.nav-bar-name>p {
+.nav-bar-name>a>p {
     font-family: 'satisfy';
     text-decoration: none;
     font-size: 2em;
     color: #000;
     margin-left: 1em;
     margin-top: 0.5em;
-
 
 }
 
