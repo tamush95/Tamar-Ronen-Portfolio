@@ -40,6 +40,10 @@ ul>li>#mainn {
 
 }
 
+.nav-bar-name>a {
+    text-decoration: none;
+}
+
 .nav-bar-pic>a>img {
     width: 4em;
     height: 4em;
@@ -47,6 +51,7 @@ ul>li>#mainn {
     margin-left: 1em;
     margin-top: 0.5em;
 }
+
 
 .nav-bar {
     display: flex;
