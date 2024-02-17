@@ -27,6 +27,10 @@ header {
 
 }
 
+.nav-bar-name>a {
+    text-decoration: none;
+}
+
 .nav-bar-pic>a>img {
     width: 4em;
     height: 4em;
