@@ -232,7 +232,6 @@ h3 {
 
 .form {
     right: 3em;
-    position: absolute;
     direction: rtl;
     line-height: 35px;
 
@@ -345,6 +344,12 @@ input[type="submit"] {
 
         font-size: 1.2em;
         margin-right: 1.2em;
+        text-align: center;
+    }
+
+    header>nav>ul>li {
+        line-height: 1px;
+        text-align: center;
     }
 
     header {
@@ -374,17 +379,24 @@ input[type="submit"] {
     }
 
     #gallery {
-        margin-top: 20em;
-        height: 70em;
+        /* margin-top: em; */
+        height: 120em;
     }
 
     .contact-div {
-        margin-top: 30em;
+        margin-top: 10em;
         text-align: center;
+        height: 50em;
+
     }
 
     .form-control>h2 {
         font-size: 1px;
+
+    }
+
+    .form {
+        margin: auto;
     }
 
     .contact-img>img {

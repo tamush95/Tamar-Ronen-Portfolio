@@ -157,7 +157,6 @@ input[type="submit"] {
 .logo>img {
     width: 1.5em;
     height: 1.5em;
-    /* margin-bottom: 60px; */
     margin: auto;
 }
 
@@ -182,6 +181,7 @@ footer {
 
     #container-form {
         width: 100vw;
+        margin: auto;
 
     }
 
@@ -190,13 +190,15 @@ footer {
     }
 
     img {
-        margin-top: 9em;
+        margin: auto;
         width: 5em;
         height: 7em;
     }
 
     #title {
+        margin: auto;
         margin-top: 1em;
+
     }
 
     #title>p {
@@ -207,12 +209,17 @@ footer {
         text-align: center;
     }
 
+    form {
+        width: 100vw;
+        margin: auto;
+
+    }
+
     .form-control {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 200px;
-
+        margin: auto;
     }
 
     .logo>img {
@@ -220,24 +227,22 @@ footer {
     }
 
     .logo {
-
-        margin-top: 2em;
-        margin-bottom: 1em;
+        margin: auto;
 
     }
 
     input[type="submit"] {
-        margin-left: 150px;
-        width: 21em;
+        margin: auto;
+        width: 15em;
     }
 
     textarea,
     input {
-        width: 25em;
+        width: 19em;
+        margin: auto;
     }
 
     footer {
-        margin-top: 9em;
         width: 100%;
     }
 }
