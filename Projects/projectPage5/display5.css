@@ -80,7 +80,7 @@ header {
 
 .bottom {
     width: 100vw;
-    height: 1000px;
+    height: 650px;
     background-color: #dadada;
     top: 500px;
     display: flex;
@@ -97,7 +97,7 @@ header {
 .footer {
     background-color: #000;
     height: 50px;
-    width: 98.8vw;
+    width: 100vw;
     font-family: 'heebo';
     color: #1AE0EC;
     font-size: 1.5em;

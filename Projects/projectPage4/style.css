@@ -97,6 +97,9 @@ form {
 
     h1 {
         font-size: 40px;
+        margin: auto;
+        text-align: center;
+        line-height: 1;
 
     }
 

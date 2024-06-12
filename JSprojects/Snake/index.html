@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Snake</title>
+</head>
+
+<body onload="createBoard()">
+    <h1>Snake</h1>
+    <div id="board"></div>
+    <p id="score"><b>ניקוד: </b> <span>0</span></p>
+    <button id="newGame" onclick="newGame()">משחק חדש</button>
+
+    <div id="buttons">
+        <button id="up" onclick="move('up')"><img src="./img/up-arrow.png" alt=""></button>
+        <div class="midButtons">
+            <button id="right" onclick="move('right')"><img src="./img/right-arrow.png" alt=""></button>
+            <button id="left" onclick="move('left')"><img src="./img/left-arrow.png" alt=""></button>
+        </div>
+        <button id="down" onclick="move('down')"><img src="./img/down-arrow.png" alt=""></button>
+    </div>
+</body>
+
+</html>
