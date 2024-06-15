@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="background-container">
+        <h1>משחק ללמידת חשבון</h1>
+        <div class="content">
+
+            <select oninput="numGenerate()" id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <select oninput="operGen()" id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+                <option value="*">*</option>
+            </select>
+            <!-- <div class="output"> -->
+            <span id="output1"></span>
+
+            <input type="number" id="output2"></input>
+            <button onclick="Check()">Check</button>
+            <!-- </div> -->
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>תרגיל</th>
+                        <th>תשובה נכונה</th>
+                        <th>תשובה שענית</th>
+                        <th>נקודות</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>

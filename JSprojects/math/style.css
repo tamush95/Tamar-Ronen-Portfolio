@@ -1,0 +1,136 @@
+.background-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/math.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #38ab94;
+    position: absolute;
+    top: 50px;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    gap: 10px;
+
+}
+
+.content>#output1 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 20px;
+
+}
+
+.content>#output2 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    height: 30px;
+    border: 3px solid #000;
+    text-align: center;
+
+}
+
+select {
+    width: 100px;
+    height: 35px;
+    border: 3px solid #000;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: -500px;
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+    background: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 1px solid #009879;
+}
+
+thead {
+    background: #38ab94;
+
+}
+
+button {
+    width: 100px;
+    background: #009879;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5em;
+        height: auto;
+        gap: 20px;
+    }
+
+    .background-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    table {
+        margin-top: -350px;
+    }
+
+    .content>#output2 {
+        width: 150px;
+        height: 20px;
+    }
+
+}
