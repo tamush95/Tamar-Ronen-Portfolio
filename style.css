@@ -256,112 +256,69 @@ h3 {
 
 }
 
-.img-div1 {
-    background-image: url(./img/Capture1.PNG);
+.card-img {
     height: 35%;
     background-position: fill;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px 15px 0 0;
+}
+
+.img-div1 {
+    background-image: url(./img/Capture1.PNG);
 }
 
 .img-div2 {
     background-image: url(./img/Capture2.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .img-div3 {
     background-image: url(./img/Capture3.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .img-div4 {
     background-image: url(./img/Capture4.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .img-div5 {
     background-image: url(./img/Capture5.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .img-div6 {
     background-image: url(./img/Capture6.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .js-img1 {
     background-image: url(./img/JSCapture1.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
 }
 
 .js-img2 {
     background-image: url(./img/JSCapture2.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .js-img3 {
     background-image: url(./img/JSCapture3.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .js-img4 {
     background-image: url(./img/JSCapture4.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .js-img5 {
     background-image: url(./img/JSCapture5.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+
 }
 
 .js-img6 {
     background-image: url(./img/JSCapture6.PNG);
-    height: 35%;
-    background-position: fill;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
 }
 
 .contact-div {
